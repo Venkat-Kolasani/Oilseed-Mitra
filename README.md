@@ -159,13 +159,6 @@ npm run preview
 3. **Government Official**: Monitor program impact, manage schemes and subsidies
 4. **Admin**: System administration and configuration
 
-## 🎓 Learning Resources
-
-- [React Documentation](https://react.dev)
-- [Firebase Documentation](https://firebase.google.com/docs)
-- [Vite Guide](https://vitejs.dev)
-- [TypeScript Handbook](https://www.typescriptlang.org/docs)
-
 ## 📝 License
 
 This project is licensed under the terms specified in the LICENSE file.
