@@ -1,0 +1,5 @@
+{
+  "name": "Oilseed-Mitra",
+  "description": "An application to help farmers compare crop profitability, with a focus on promoting oilseed farming. It includes a profitability simulator, information on government schemes, and market data.",
+  "requestFramePermissions": []
+}

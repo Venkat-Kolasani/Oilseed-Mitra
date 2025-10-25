@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-," />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oilseed-Mitra</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      // These are placeholder global variables that would be injected by the runtime environment.
+      // They are necessary for the Firebase initialization logic in the app.
+      var __firebase_config = JSON.stringify({
+        apiKey: "YOUR_API_KEY",
+        authDomain: "YOUR_AUTH_DOMAIN",
+        projectId: "YOUR_PROJECT_ID",
+        storageBucket: "YOUR_STORAGE_BUCKET",
+        messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+        appId: "YOUR_APP_ID"
+      });
+      var __app_id = 'default-app-id';
+      var __initial_auth_token = ''; // This would be populated with a custom token if available
+    </script>
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+      @keyframes fade-in {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      @keyframes slide-up {
+        from { transform: translateY(20px); opacity: 0; }
+        to { transform: translateY(0); opacity: 1; }
+      }
+      .animate-fade-in {
+        animation: fade-in 0.5s ease-in-out;
+      }
+      .animate-slide-up {
+        animation: slide-up 0.5s ease-in-out;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "firebase/": "https://aistudiocdn.com/firebase@^12.4.0/",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-white">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
